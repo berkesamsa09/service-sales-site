@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: scroll;
+    background-color: white;
+    background-image: url();
+}
+
+.navbar{
+   text-align: center;
+   padding: 15px;
+ 
+   
+  
+   padding: 25px;
+}
+.navbar ul{
+    padding-bottom: 30px;
+}
+.navbar ul li{
+    color: white;
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 20px;
+    margin: 3px 30px;
+    font-size: 20px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    transition: background-color 1s;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: aliceblue;
+    float: left;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.navbar ul li a:hover{
+    background-color: whitesmoke;
+    
+   
+}
+.logo a::first-letter{
+    font-size: 50px;
+}
+.background-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.logo img{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    width: 145px;
+    height: 145px;
+    background-color: white;
+
+
+}
+.hakkimizda{
+    margin-top: 130px;
+ 
+    padding-bottom: 100px;
+    border-radius: 10px;
+    
+}
+.hizmetler h4{
+    display: inline-block;
+    margin: 30px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    border-radius: 10px;
+    transition: background-color 1s;
+    
+}
+.hizmetler h4:hover{
+   background-color: whitesmoke;
+   
+    
+}
+.hizmetler .web{
+    padding: 30px;
+    padding-top: 38px;
+}
+.foto2 img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.projeler{
+    padding-top: 100px;
+}
+.proje1{
+    float: left;
+    width: 600px;
+    height: 390px;
+    padding-top: 80px;
+    border-radius: 50px;
+}
+.proje2{
+    float: right;
+    width: 600px;
+    height: 390px;
+    padding-top: 80px;
+    border-radius: 50px;
+}
+.foto3 img{
+    width: 100%;
+    height: 750px;
+    border-radius: 20px;
+}
+.hizmetler h1{
+    position: relative;
+    top: 30px;
+}
+/* Pricing stillemesi */
+.pricing {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pricing .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-item {
+    flex: 1;
+    margin: 0 20px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-item h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pricing-item .price {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+/* İletişim ve footer stillemesi */
+.contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact .btn:hover {
+    background-color: #ff6a36;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left h3, .footer-right h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-left p, .footer-right p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#privacy-policy {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #262626;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+#privacy-policy .container {
+    margin-bottom: 10px;
+}
+
+#privacy-policy p {
+    margin: 0;
+}
+
+#privacy-policy a {
+    color: #385185;
+    text-decoration: none;
+}
+
+#privacy-policy button {
+    display: block;
+    width: 100%;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#privacy-policy button:hover {
+    background-color: #0077b5;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right {
+    width: 45%;
+}
+
+.footer-left h3, .footer-right h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.footer-left p, .footer-right p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-left p:last-child, .footer-right p:last-child {
+    margin-bottom: 0;
+}
+
+.footer-right p {
+    font-size: 18px;
+}
+
+.footer .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .contact-info p {
+    margin: 5px 0;
+}
+
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #ff4500;
+}
+
+@media screen and (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-left, .footer-right h3 {
+        text-align: center;
+    }
+}
